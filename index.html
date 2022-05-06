@@ -12,7 +12,8 @@
         h2 {
             color: #0a7a51;
             background-color: wheat;
-            font-size: 28px;
+            font-size: 30px;
+            border-radius: 40px;
         }
         body {
             background-color: rgb(255,400,200);
@@ -24,15 +25,38 @@
             color: black;
             line-height: 26px;
             font-weight: 600;
+            border-radius: 20px;
         }
         a {
             color: black;
-            font-weight: bold;
+            font-weight: 600;
+            text-decoration: none;
+            line-height: 40px;
         }
         h1 {
             font-size: 2.5em;
             color: #0a7a51;
             font-weight:800;
+        }
+        #photo {
+            border-radius: 15px;
+        }
+        #codecamp {
+            font-style: italic; 
+            font-size: 18px;
+        }
+        #index {
+            color: #0a7a51;
+            font-size: 23px;
+        }
+        .index {
+            background-color: wheat;
+            border-radius: 20px;
+        }
+        #return {
+            font-size: 30px;
+            color: #0a7a51;
+            font-weight: 800;
         }
         </style>
         
@@ -41,9 +65,8 @@
     <!-- Começo -->
     <h1>Samuel Gomes Cabral</h1> 
     <img id="photo" src="1650478983291.jpg" width="300px" height="490px" alt="a photo of me very handsome">
-    <hr>
-    <p>Index</p>
-    <ul>
+    <p id="index"><strong> Index</strong></p>
+    <ul class="index"> 
         <li><a href="#description">Who i am</li></a> 
         <li><a href="#skills">My favourite skills</li></a> 
         <li><a href="#otherskills">Other skills</li></a> 
@@ -51,15 +74,16 @@
     </ul>
     <hr>
     <h2 id="description">A brief description about me</h2>
-    <p class="writing">I am a 20 years old brazillian currently living in the state of Santa Catarina. <br>
-        My greatest passion is to impact positively in those around me, spreading good values and happiness
+    <p class="writing">I am a 20 years old brazillian currently living in the state of Santa Catarina.
+        My greatest passion is to impact positively in those<br> around me, spreading good values and happiness
         from now to my last breath.
     </p>
     <hr>
     <!-- Habilidades -->
     <h2 id="skills">The skills i'm most proud of:</h2>
-    <p class="writing">Being able to <strong>listen and learn</strong> with every person, being empathetic and curious, with a strong will 
-        to be a better person and professional.</p>
+    <p class="writing">Being able to <strong>listen and learn</strong> with every person
+        , being empathetic and curious, with a strong will
+        to be a better<br> person and professional.</p>
     <hr>    
     <h2 id="otherskills">Other skills:</h2>
     <em><ul class="writing">
@@ -70,7 +94,7 @@
     <hr>
     <!-- Fim -->
    <h2 id="recommended">Recommended blog:</h2>
-   <em><a class="writing" href="https://www.freecodecamp.org/news/" target="_blank">freeCodeCamp</a></em> <br> <br> <hr>
-   <a class="writing" href=#photo"><strong>Return to my photo</a></strong>
+   <em><a class="writing" id="codecamp" href="https://www.freecodecamp.org/news/" target="_blank">freeCodeCamp</a></em> <br> <br> <hr>
+   <a class="writing" id="return" href=#photo><strong>Return to my photo</a></strong>
 </body>
 </html>
