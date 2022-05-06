@@ -1,0 +1,49 @@
+h2 {
+    color: #0a7a51;
+    background-color: wheat;
+    font-size: 30px;
+    border-radius: 40px;
+}
+body {
+    background-color: rgb(255,400,200);
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+.writing {
+    background-color: wheat;
+    color: black;
+    line-height: 26px;
+    font-weight: 600;
+    border-radius: 20px;
+}
+a {
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+    line-height: 40px;
+}
+h1 {
+    font-size: 2.5em;
+    color: #0a7a51;
+    font-weight:800;
+}
+#photo {
+    border-radius: 15px;
+}
+#codecamp {
+    font-style: italic; 
+    font-size: 18px;
+}
+#index {
+    color: #0a7a51;
+    font-size: 23px;
+}
+.index {
+    background-color: wheat;
+    border-radius: 20px;
+}
+#return {
+    font-size: 30px;
+    color: #0a7a51;
+    font-weight: 800;
+}
