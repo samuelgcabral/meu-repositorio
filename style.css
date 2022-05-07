@@ -1,8 +1,8 @@
 h2 {
     color: #E7A977;
-    background-color: #502419;
-    font-size: 30px;
+    font-size: 33px;
     border-radius: 40px;
+    text-align: center;
 }
 body {
     background-color: #0B2306;
@@ -14,7 +14,7 @@ body {
     color: #0B2306;
     line-height: 26px;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 20px;
     border-radius: 20px;
 }
 a {
@@ -22,6 +22,8 @@ a {
     font-weight: 600;
     text-decoration: none;
     line-height: 40px;
+    text-align: center;
+    background-color: #648767;
 }
 h1 {
     font-size: 2.5em;
@@ -38,14 +40,18 @@ h1 {
 #codecamp {
     font-style: italic; 
     font-size: 18px;
+    text-align: center;
+    background-color: #648767;
+    color: #0B2306;
 }
-#index {
+.indexword {
     color: #E7A977;
     font-size: 23px;
     background-color: #502419;
+    text-align: center;
+    font-weight: bold;
 }
 .index {
-    background-color: #648767;
     border-radius: 20px;
     font-size: 23px;
 }
@@ -53,8 +59,19 @@ h1 {
     font-size: 30px;
     color: #E7A977;
     font-weight: 800;
-    background-color: #091E05;
+    background-color: #502419;
+    text-align: center;
 }
 .titulo {
     background-color: #502419;
+}
+.subtitulo {
+    background-color: #502419;
+}
+ul {
+    color: #648767;
+    
+}
+#sk {
+    font-weight: bolder;
 }
