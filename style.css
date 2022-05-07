@@ -8,6 +8,7 @@ body {
     background-color: #0B2306;
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
+    text-align: center;
 }
 .writing {
     background-color: #648767;
@@ -24,6 +25,7 @@ a {
     line-height: 40px;
     text-align: center;
     background-color: #648767;
+    border-radius: 20px;
 }
 h1 {
     font-size: 2.5em;
@@ -37,7 +39,7 @@ h1 {
     margin-left: auto;
     margin-right: auto 
 }
-#codecamp {
+.codecamp {
     font-style: italic; 
     font-size: 18px;
     text-align: center;
@@ -46,14 +48,16 @@ h1 {
 }
 .indexword {
     color: #E7A977;
-    font-size: 23px;
+    font-size: 25px;
     background-color: #502419;
     text-align: center;
     font-weight: bold;
+    border-radius: 18px;
 }
 .index {
     border-radius: 20px;
     font-size: 23px;
+    text-align: center;
 }
 #return {
     font-size: 30px;
@@ -71,4 +75,9 @@ h1 {
 ul {
     color: #648767;
     
+}
+#indi {
+    text-align: center;
+    list-style-position: inside;
+    border-radius: 20px;
 }
