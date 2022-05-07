@@ -1,30 +1,31 @@
 h2 {
-    color: #0a7a51;
-    background-color: wheat;
+    color: #E7A977;
+    background-color: #502419;
     font-size: 30px;
     border-radius: 40px;
 }
 body {
-    background-color: rgb(255,400,200);
+    background-color: #0B2306;
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
 }
 .writing {
-    background-color: wheat;
-    color: black;
+    background-color: #648767;
+    color: #0B2306;
     line-height: 26px;
     font-weight: 600;
+    font-size: 18px;
     border-radius: 20px;
 }
 a {
-    color: black;
+    color: #223843;
     font-weight: 600;
     text-decoration: none;
     line-height: 40px;
 }
 h1 {
     font-size: 2.5em;
-    color: #0a7a51;
+    color: #648767;
     font-weight:800;
 }
 #photo {
@@ -35,15 +36,18 @@ h1 {
     font-size: 18px;
 }
 #index {
-    color: #0a7a51;
+    color: #E7A977;
     font-size: 23px;
+    background-color: #502419;
 }
 .index {
-    background-color: wheat;
+    background-color: #648767;
     border-radius: 20px;
+    font-size: 23px;
 }
 #return {
     font-size: 30px;
-    color: #0a7a51;
+    color: #E7A977;
     font-weight: 800;
+    background-color: #091E05;
 }
