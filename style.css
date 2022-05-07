@@ -25,7 +25,7 @@ a {
 }
 h1 {
     font-size: 2.5em;
-    color: #648767;
+    color: #e7a977;
     font-weight:800;
     text-align: center;
 }
@@ -54,4 +54,7 @@ h1 {
     color: #E7A977;
     font-weight: 800;
     background-color: #091E05;
+}
+.titulo {
+    background-color: #502419;
 }
