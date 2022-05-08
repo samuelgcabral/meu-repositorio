@@ -44,10 +44,14 @@ h1 {
 }
 .codecamp {
     font-style: italic; 
-    font-size: 18px;
+    font-size: 19px;
     text-align: center;
     background-color: #648767;
     color: #0B2306;
+    border-style: solid;
+    border-color: #502419;
+    border-width: 1px;
+    border-radius: 20px;
 }
 .indexword {
     color: #E7A977;
@@ -56,6 +60,9 @@ h1 {
     text-align: center;
     font-weight: bold;
     border-radius: 18px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #E7A977
 }
 .index {
     border-radius: 20px;
@@ -68,13 +75,23 @@ h1 {
     font-weight: 800;
     background-color: #502419;
     text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #E7A977
 }
 .titulo {
     background-color: #502419;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #E7A977
 }
 .subtitulo {
     background-color: #502419;
     border-radius: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #E7A977
 }
 ul {
     color: #648767;
@@ -92,6 +109,7 @@ ul {
 }
 li {
     list-style-position: inside;
+    color: #E7A977;
 
 }
 .in {
