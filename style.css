@@ -13,13 +13,14 @@ body {
 .writing {
     background-color: #648767;
     color: #0B2306;
-    line-height: 26px;
+    line-height: 32px;
     font-weight: 600;
     font-size: 20px;
     border-radius: 20px;
     border-style: solid;
     border-color: #502419;
     border-width: 1px;
+    padding: 3px;
 }
 a {
     color: #0B2306;
@@ -29,6 +30,7 @@ a {
     text-align: center;
     background-color: #648767;
     border-radius: 20px;
+    
 }
 h1 {
     font-size: 2.5em;
@@ -52,6 +54,10 @@ h1 {
     border-color: #502419;
     border-width: 1px;
     border-radius: 20px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 2px;
+    padding-top: 3px;
 }
 .indexword {
     color: #E7A977;
@@ -62,12 +68,17 @@ h1 {
     border-radius: 18px;
     border-style: solid;
     border-width: 1px;
-    border-color: #E7A977
+    border-color: #E7A977;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 2px;
+    padding-top: 3px;
 }
 .index {
     border-radius: 20px;
     font-size: 23px;
     text-align: center;
+    
 }
 #return {
     font-size: 30px;
@@ -77,26 +88,35 @@ h1 {
     text-align: center;
     border-style: solid;
     border-width: 1px;
-    border-color: #E7A977
+    border-color: #E7A977;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 3px;
+    padding-top: 3px;
 }
 .titulo {
     background-color: #502419;
     border-radius: 20px;
     border-style: solid;
     border-width: 1px;
-    border-color: #E7A977
+    border-color: #E7A977;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 3px;
+    padding-top: 3px;
 }
 .subtitulo {
     background-color: #502419;
     border-radius: 20px;
     border-style: solid;
     border-width: 1px;
-    border-color: #E7A977
+    border-color: #E7A977;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 2px;
+    padding-top: 3px;
 }
-ul {
-    color: #648767;
-    
-}
+
 .indi {
     text-align: center;
     list-style-position: inside;
@@ -106,15 +126,16 @@ ul {
     line-height: 26px;
     font-weight: 600;
     font-size: 20px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 2px;
+    padding-top: 3px;
+    border: 1px solid #502419;
+    line-height: 33px;
 }
 li {
     list-style-position: inside;
     color: #E7A977;
+    
 
-}
-.in {
-    border-style: solid;
-    border-color: #502419;
-    border-width: 1px;
-    border-radius: 20px;
 }
