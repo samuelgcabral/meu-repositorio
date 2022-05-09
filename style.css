@@ -46,13 +46,13 @@ h1 {
 }
 .codecamp {
     font-style: italic; 
-    font-size: 19px;
+    font-size: 20px;
     text-align: center;
     background-color: #648767;
     color: #0B2306;
     border-style: solid;
     border-color: #502419;
-    border-width: 1px;
+    border-width: 2px;
     border-radius: 20px;
     padding-left: 8px;
     padding-right: 8px;
@@ -132,10 +132,24 @@ h1 {
     padding-top: 3px;
     border: 1px solid #502419;
     line-height: 33px;
+
 }
 li {
     list-style-position: inside;
     color: #E7A977;
-    
-
+}
+a:hover {
+    color: #E7A977;
+}
+.indi:active {
+    background-color: #502419;
+}
+a:active {
+    background-color: #502419;
+}
+.codecamp:hover {
+    color: #E7A977;
+}
+.codecamp:active {
+    background-color: #502419;
 }
