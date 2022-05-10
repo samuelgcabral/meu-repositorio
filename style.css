@@ -137,7 +137,8 @@ a:hover {
 }
 
 .codecamp:hover {
-    color: #E7A977;
+    font-weight: bold;
+    font-size: 30px;
 }
 .codecamp:active {
     background-color: #502419;
