@@ -5,10 +5,12 @@ h2 {
     text-align: center;
 }
 body {
-    background-color: #0B2306;
+    background-image: url(https://wallpaperaccess.com/full/1216272.jpg);
+    background-size: cover;
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
+    margin: 0px;
 }
 .writing {
     background-color: #648767;
@@ -19,7 +21,7 @@ body {
     border-radius: 20px;
     border-style: solid;
     border-color: #502419;
-    border-width: 1px;
+    border-width: 3px;
     padding: 3px;
 }
 a {
@@ -39,10 +41,10 @@ h1 {
     text-align: center;
 }
 #photo {
-    border-radius: 35px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto 
+    border-radius: 40px;
+    float: right;
+    margin-right: 60px;
+    border: 3px solid #502419;
 }
 .codecamp {
     font-style: italic; 
@@ -67,19 +69,16 @@ h1 {
     font-weight: bold;
     border-radius: 18px;
     border-style: solid;
-    border-width: 1px;
+    border-width: 2px;
     border-color: #E7A977;
     padding-left: 8px;
     padding-right: 8px;
     padding-bottom: 2px;
     padding-top: 3px;
+    margin-left: 10px;
+
 }
-.index {
-    border-radius: 20px;
-    font-size: 23px;
-    text-align: center;
-    
-}
+
 #return {
     font-size: 30px;
     color: #E7A977;
@@ -98,7 +97,7 @@ h1 {
     background-color: #502419;
     border-radius: 20px;
     border-style: solid;
-    border-width: 1px;
+    border-width: 2px;
     border-color: #E7A977;
     padding-left: 10px;
     padding-right: 10px;
@@ -115,6 +114,12 @@ h1 {
     padding-right: 8px;
     padding-bottom: 2px;
     padding-top: 3px;
+    font-size: 38px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+
 }
 
 .indi {
@@ -130,9 +135,9 @@ h1 {
     padding-right: 8px;
     padding-bottom: 2px;
     padding-top: 3px;
-    border: 1px solid #502419;
+    border: 3px solid #502419;
     line-height: 33px;
-
+    
 }
 li {
     list-style-position: inside;
@@ -152,4 +157,59 @@ a:active {
 }
 .codecamp:active {
     background-color: #502419;
+}
+.classe {
+    border: 3px solid #502419;
+    margin-left: 420px;
+    padding-top: 20px;
+    margin-bottom: 15px;
+    background-image: url(https://image.shutterstock.com/image-illustration/green-grained-ultra-hd-background-260nw-1612884064.jpg);
+    background-size: cover;
+    border-radius: 34px;
+    width: 40%;
+    
+}
+.image-container {
+    height: 400px;
+
+}
+.desc {
+        background-color: #648767;
+        color: #0B2306;
+        line-height: 45px;
+        font-weight: 600;
+        font-size: 23px;
+        border-radius: 20px;
+        border-style: solid;
+        border-color: #502419;
+        border-width: 3px;
+        padding:5px;
+        margin-left: 100px;        
+        
+}
+.separacao {
+    height: 160px;
+    width: 50%;
+    margin-left: 350px;
+    padding-bottom: 80px;
+    border: 3px solid #502419;
+    background-image: url(https://image.shutterstock.com/image-illustration/green-grained-ultra-hd-background-260nw-1612884064.jpg);
+    background-size: cover;
+    border-radius: 34px;
+    margin-bottom: 15px;
+    
+}
+.letras {
+    height: 360px;
+    background-image: url(https://image.shutterstock.com/image-illustration/green-grained-ultra-hd-background-260nw-1612884064.jpg);
+    background-size: cover;
+    position: absolute;
+    width: 60%;
+    left: 190px;
+    border: 7px solid #502419;
+    padding: 10px;
+    border-radius: 70px;
+}
+#description {
+    margin-left: 160px;
 }
