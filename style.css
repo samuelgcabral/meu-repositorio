@@ -30,7 +30,6 @@ a {
     text-decoration: none;
     line-height: 40px;
     text-align: center;
-    background-color: #648767;
     border-radius: 20px;
     
 }
@@ -43,8 +42,8 @@ h1 {
 #photo {
     border-radius: 40px;
     float: right;
-    margin-right: 60px;
-    border: 3px solid #502419;
+    margin-right: 50px;
+    border: 10px solid #0B2306;
 }
 .codecamp {
     font-style: italic; 
@@ -64,8 +63,9 @@ h1 {
 .indexword {
     color: #E7A977;
     font-size: 30px;
-    background-color: #502419;
-    text-align: center;
+    background-image: url(https://image.shutterstock.com/image-illustration/green-grained-ultra-hd-background-260nw-1612884064.jpg);
+    background-size: cover;
+        text-align: center;
     font-weight: bold;
     border-radius: 18px;
     border-style: solid;
@@ -83,8 +83,9 @@ h1 {
     font-size: 30px;
     color: #E7A977;
     font-weight: 800;
-    background-color: #502419;
-    text-align: center;
+    background-image: url(https://image.shutterstock.com/image-illustration/green-grained-ultra-hd-background-260nw-1612884064.jpg);
+    background-size: cover;
+        text-align: center;
     border-style: solid;
     border-width: 1px;
     border-color: #E7A977;
@@ -94,19 +95,22 @@ h1 {
     padding-top: 3px;
 }
 .titulo {
-    background-color: #502419;
+    background-image: url(https://image.shutterstock.com/image-illustration/green-grained-ultra-hd-background-260nw-1612884064.jpg);
+    background-size: cover;
     border-radius: 20px;
     border-style: solid;
-    border-width: 2px;
+    border-width: 3px;
     border-color: #E7A977;
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 3px;
     padding-top: 3px;
+    font-weight: bold;
 }
 .subtitulo {
-    background-color: #502419;
-    border-radius: 20px;
+    background-image: url(https://image.shutterstock.com/image-illustration/green-grained-ultra-hd-background-260nw-1612884064.jpg);
+    background-size: cover;
+        border-radius: 20px;
     border-style: solid;
     border-width: 1px;
     border-color: #E7A977;
@@ -159,12 +163,10 @@ a:active {
     background-color: #502419;
 }
 .classe {
-    border: 3px solid #502419;
     margin-left: 420px;
     padding-top: 20px;
     margin-bottom: 15px;
-    background-image: url(https://image.shutterstock.com/image-illustration/green-grained-ultra-hd-background-260nw-1612884064.jpg);
-    background-size: cover;
+
     border-radius: 34px;
     width: 40%;
     
@@ -189,26 +191,23 @@ a:active {
 }
 .separacao {
     height: 160px;
-    width: 50%;
-    margin-left: 350px;
+    width: 40%;
+    margin-left: 470px;
     padding-bottom: 80px;
-    border: 3px solid #502419;
-    background-image: url(https://image.shutterstock.com/image-illustration/green-grained-ultra-hd-background-260nw-1612884064.jpg);
-    background-size: cover;
-    border-radius: 34px;
+    font-size: 30px;
+    border-radius: 40px;
     margin-bottom: 15px;
     
 }
 .letras {
-    height: 360px;
-    background-image: url(https://image.shutterstock.com/image-illustration/green-grained-ultra-hd-background-260nw-1612884064.jpg);
-    background-size: cover;
+    height: 340px;
+
     position: absolute;
-    width: 60%;
-    left: 190px;
-    border: 7px solid #502419;
+    width: 55%;
+    left: 270px;
     padding: 10px;
     border-radius: 70px;
+    margin-right: 20px;
 }
 #description {
     margin-left: 160px;
