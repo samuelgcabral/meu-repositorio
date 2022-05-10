@@ -49,12 +49,12 @@ h1 {
     font-style: italic; 
     font-size: 20px;
     text-align: center;
-    background-color: #648767;
-    color: #0B2306;
-    border-style: solid;
-    border-color: #502419;
-    border-width: 2px;
+    background-color: #0B2306;
+    color: #E7A977;
+    border-width: 1px;
+    border-color: #648767;
     border-radius: 20px;
+    border-style: solid;
     padding-left: 8px;
     padding-right: 8px;
     padding-bottom: 2px;
@@ -120,8 +120,7 @@ h1 {
     padding-top: 3px;
     font-size: 38px;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+ 
     
 
 }
@@ -153,9 +152,7 @@ a:hover {
 .indi:active {
     background-color: #502419;
 }
-a:active {
-    background-color: #502419;
-}
+
 .codecamp:hover {
     color: #E7A977;
 }
@@ -172,25 +169,25 @@ a:active {
     
 }
 .image-container {
-    height: 400px;
+    height: 290px;
 
 }
 .desc {
-        background-color: #648767;
-        color: #0B2306;
-        line-height: 45px;
-        font-weight: 600;
-        font-size: 23px;
+        background-color: #0B2306;
+        color: #E7A977;
+        border-width: 1px;
+        border-color: #648767;
         border-radius: 20px;
         border-style: solid;
-        border-color: #502419;
-        border-width: 3px;
+        line-height: 45px;
+        font-weight: 600;
+        font-size: 20px;
         padding:5px;
-        margin-left: 100px;        
+        margin-left: 30px;        
         
 }
 .separacao {
-    width: 40%;
+    width: 50%;
     margin-left: 470px;
     font-size: 30px;
     border-radius: 40px;
@@ -198,10 +195,8 @@ a:active {
     margin-top: 10px;
 }
 .letras {
-    height: 340px;
     margin-left: 280px;
     width: 55%;
-    padding: 10px;
     border-radius: 70px;
 }
 #description {
