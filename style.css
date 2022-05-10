@@ -25,13 +25,12 @@ body {
     padding: 3px;
 }
 a {
-    color: #0B2306;
     font-weight: 600;
     text-decoration: none;
     line-height: 40px;
     text-align: center;
     border-radius: 20px;
-    
+    color: #E7A977;
 }
 h1 {
     font-size: 2.5em;
@@ -125,23 +124,7 @@ h1 {
 
 }
 
-.indi {
-    text-align: center;
-    list-style-position: inside;
-    border-radius: 20px;
-    background-color: #648767;
-    color: #0B2306;
-    line-height: 26px;
-    font-weight: 600;
-    font-size: 20px;
-    padding-left: 8px;
-    padding-right: 8px;
-    padding-bottom: 2px;
-    padding-top: 3px;
-    border: 3px solid #502419;
-    line-height: 33px;
-    
-}
+
 li {
     list-style-position: inside;
     color: #E7A977;
@@ -196,7 +179,7 @@ a:hover {
 }
 .letras {
     margin-left: 280px;
-    width: 55%;
+    width: 65%;
     border-radius: 70px;
 }
 #description {
