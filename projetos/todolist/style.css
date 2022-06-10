@@ -1,0 +1,125 @@
+body {
+    background-image: url(https://static.vecteezy.com/system/resources/previews/006/218/231/original/doodle-set-hand-drawn-elements-for-diary-notebook-and-planner-illustration-isolated-sketch-for-study-and-work-collection-of-decorations-frames-and-stickers-from-lines-on-a-white-background-vector.jpg);
+    background-size: contain;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    color: #EAE1C8
+}
+
+.listGray {
+    text-decoration: underline;
+    font-size: 40px;
+    opacity: 1;
+}
+
+.completed {
+    text-decoration: line-through solid black
+}
+
+input,
+button {
+    padding: 5px;
+    font-size: 16px;
+    border: 4px solid #614A45;
+    background-color: #EAE1C8;
+    border-radius: 10px;
+    color: #28211B;
+    transition: 0.5s ease-in-out;
+
+}
+
+h1 {
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+    color: #DAD0C6;
+    background-color: #28211B;
+    border-radius: 20px;
+    border: 3px solid #614A45;
+    padding: 0px 10px;
+    text-transform: uppercase;
+    transition: 0.4s ease;
+}
+
+h1:hover {
+    box-shadow: 15px 10px 10px rgb(19, 18, 18);
+    color:#B39C7D;
+    border: 2px solid #DAD0C6;
+    
+    transform:scale(1.1);
+    
+}
+
+li {
+    color: #28211B;
+    text-transform: uppercase;
+    list-style-image: url(./check-solid.svg);
+    font-size: 30px;
+    transition: 0.4s ease-in-out;
+    opacity: 0.9;
+}
+
+.divLista {
+    min-width: 700px;
+    min-height: 350px;
+    margin-top: 7px;
+    background-image: url(https://cdn.pixabay.com/photo/2016/11/07/18/19/notebook-paper-1806473_960_720.jpg);
+    background-size: cover;
+    border-radius: 20px;
+    border: 5px solid #614A45;
+    transition: 0.4s ease-in-out;
+}
+
+p {
+    text-align: center;
+    opacity: 0.8;
+    transition: 0.5s ease-in-out;
+}
+
+button:hover {
+    
+    background-color: #FC4400;
+    color: #FFBF23;
+    border: 1px solid #FC4400;;
+    text-transform: uppercase;
+    transform:scale(1.7)
+}
+
+input:hover {
+    transform:scale(1.5);
+    background-color: #FFBF23;
+    border: 1px solid #614A45;
+
+}
+
+main {
+    min-width: 1000px;
+    min-height: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.headerSection {
+    background-color: #28211B;
+    border-radius: 15px;
+    padding: 28px 50px;
+    border: 5px solid #614A45;
+}
+p:hover {
+    transform:scale(1.1);
+    text-transform: uppercase;
+    
+    opacity: 1;
+}
+.divLista:hover {
+    min-width: 750px;
+    min-height: 380px;
+    
+}
+li:hover {
+    transform: scale(1.1);
+}
