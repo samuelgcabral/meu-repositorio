@@ -2,8 +2,8 @@ body {
     font-family: 'Montserrat', sans-serif !important;
 }
 
-#title {
-    color: #FFFBF7;
+.spanTitle {
+    padding: 3px 20px;
 }
 
 .mainDiv {
@@ -22,6 +22,11 @@ body {
     max-height: 380px;
     border-radius: 50%;
     border: 2px solid white;
+    transition: 0.5s ease-in-out;
+}
+
+#photo:hover {
+    transform: scale(1.07);
 }
 
 .picture {
@@ -37,6 +42,7 @@ body {
     padding: 20px;
     border-radius: 10%;
     width: 23%;
+    transition: 0.4s ease-in-out;
 }
 
 .textSection2 {
@@ -46,6 +52,7 @@ body {
     flex-direction: column;
     justify-content: center;
     max-width: 23%;
+    transition: 0.4s ease-in-out;
 }
 .textSection1, .textSection2 {
     border: 1px solid #737373;
@@ -60,4 +67,7 @@ body {
     opacity: 1;
     font-weight:530;
     transform: scale(1.05);
+}
+.textSection1:hover, .textSection2:hover {
+    box-shadow: 0 0 1em #828282;
 }
