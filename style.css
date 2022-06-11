@@ -100,3 +100,20 @@ body {
         box-shadow: 0 0 1em #828282;
     }
 }
+
+.icon {
+    width: 114px;
+    height: 114px;
+}
+
+.footerSocials {
+    display: flex;
+    flex-direction: row !important;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+}
+.secFooter {
+    display: flex;
+    justify-content: center;
+}
