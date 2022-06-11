@@ -1,50 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;800&display=swap" rel="stylesheet">
-    <title>my portfolio</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <style>
-
-        </style>
-        
+    <<link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&display=swap"
+            rel="stylesheet">
+        <title>My Portfolio</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
-<body>
-    <!-- Começo -->
-    <header><h1><span class="titulo"> Samuel Gomes Cabral</h1> </span> 
-    <nav class="classe"> <span class="indexword">Index</span></header>
-       <ul> 
-             <li><span class="codecamp"> <a href="#description">Who am i</li></a></span>
-             <li><span class="codecamp"><a href="#skills">My favourite skills</li></a></span>
-            <li><span class="codecamp"><a href="#otherskills">Other skills</span></li></a> 
-            <li><span class="codecamp"><a href="#contact">Contact</span></li></a>
-        </ul></nav>
-        <section class="image-container">
-    <img id="photo" src="1650478983291.jpg" width="280px" height="430px" alt="a photo of me very handsome">
-    <main class="letras"><h2><span class="subtitulo" id="description">A brief description about me</h2></span>
-   <span class="desc">I am a <strong>20 years</strong> old <em> brazillian </em> currently living in the state of <em>Santa<br> Catarina</em>.
-        My utmost desire is to <strong>impact positively</strong> in those<br> around me, spreading <strong>good values and happiness</strong>
-        from now <strong>to my <br>last breath.</strong></span></main></section>
-    
-    <!-- Habilidades -->
-    <article class="separacao"> <h2><span class="subtitulo" id="skills">The skills i'm most proud of:</h2></span>
-    <p><span class="desc">Being able to <strong>listen and learn</strong> with every person by
-         being <strong> empathetic and curious</strong>, with a <strong>strong will</strong>
-        to be a better<br> person and professional.</p></span></article>
-        
-    <section class="separacao"><h2><span class="subtitulo" id="otherskills">Other skills:</h2></span>
-    <ul>
-        <li><span class="codecamp">HTML</span></li>
-        <li><span class="codecamp">GIT</li></span>
-        <li><span class="codecamp">CSS</li></span> </ul></section>
-    <!-- Fim -->
-    <footer class="separacao"> <h2><span class="subtitulo" id="contact">Contact me:</h2></span>
-   <a href="https://www.linkedin.com/in/samuel-gomes-cabral-77853b238/" target="_blank"><span class="codecamp">Linkedin</a></span>
-   <h2><a class="writing" id="return" href=#photo>Return to my photo</a></footer>
-</body>
+
+<body class="bg-dark">
+    <h1 class="text-center display-3 mb-4" id="title">Samuel Gomes Cabral</h1>
+    <main class="container mainDiv">
+        <section class="textSection1 bg-dark">
+            <h2 class="text-light text-center">Bio</h2>
+            <p class="parag text-light text-center">I am a 20 years old brazillian currently living in the state of Santa
+                Catarina. My utmost desire is to impact positively in those
+                around me, spreading good values and happiness from now to my
+                last breath.</p>
+        </section>
+        <section class="picture">
+            <img id="photo" src="./imgs/photoOfMe.jpg" alt="photo of me">
+        </section>
+        <section class="textSection2 bg-dark">
+            <h2 class="text-light text-center">Currently</h2>
+            <p class="parag text-light ms-4">I'm currently studying Full-Stack Web Development at Trybe, a technology school
+                that has a genuine commitment to the professional
+                success of its students.
+            </p>
+        </section>
+    </main>
+
 </html>

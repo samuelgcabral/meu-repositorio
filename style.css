@@ -1,188 +1,63 @@
-h2 {
-    color: #E7A977;
-    font-size: 33px;
-    border-radius: 40px;
-    text-align: center;
-}
 body {
-    background-image: url(https://wallpaperaccess.com/full/1216272.jpg);
-    background-size: cover;
-    font-size: 20px;
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
-    margin: 0px;
+    font-family: 'Montserrat', sans-serif !important;
 }
-.writing {
-    background-color: #648767;
-    color: #0B2306;
-    line-height: 32px;
-    font-weight: 600;
-    font-size: 21px;
-    border-radius: 20px;
-    border-style: solid;
-    border-color: #502419;
-    border-width: 3px;
-    padding: 3px;
+
+#title {
+    color: #FFFBF7;
 }
-a {
-    font-weight: 600;
-    text-decoration: none;
-    line-height: 40px;
-    text-align: center;
-    border-radius: 20px;
-    color: #E7A977;
+
+.mainDiv {
+    background-image: url(./imgs//abstract-geometric-background-with-a-3d-kjpargeter.jpg);
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 50px;
+    min-height: 480px;
+    max-width: 1200px !important;
+    align-items:center;
+    box-shadow: 0 0 1em #737373;
 }
-h1 {
-    font-size: 2.5em;
-    color: #e7a977;
-    font-weight:800;
-    text-align: center;
-}
+
 #photo {
-    border-radius: 40px;
-    float: right;
-    margin-right: 50px;
-    border: 10px solid #0B2306;
-}
-.codecamp {
-    font-style: italic; 
-    font-size: 20px;
-    text-align: center;
-    background-color: #0B2306;
-    color: #E7A977;
-    border-width: 1px;
-    border-color: #648767;
-    border-radius: 20px;
-    border-style: solid;
-    padding-left: 8px;
-    padding-right: 8px;
-    padding-bottom: 2px;
-    padding-top: 3px;
-}
-.indexword {
-    color: #E7A977;
-    font-size: 30px;
-    background-image: url(https://image.shutterstock.com/image-illustration/green-grained-ultra-hd-background-260nw-1612884064.jpg);
-    background-size: cover;
-        text-align: center;
-    font-weight: bold;
-    border-radius: 18px;
-    border-style: solid;
-    border-width: 2px;
-    border-color: #E7A977;
-    padding-left: 8px;
-    padding-right: 8px;
-    padding-bottom: 2px;
-    padding-top: 3px;
-    margin-left: 10px;
-
+    max-width: 800px;
+    max-height: 380px;
+    border-radius: 50%;
+    border: 2px solid white;
 }
 
-#return {
-    font-size: 30px;
-    color: #E7A977;
-    font-weight: 800;
-    background-image: url(https://image.shutterstock.com/image-illustration/green-grained-ultra-hd-background-260nw-1612884064.jpg);
-    background-size: cover;
-        text-align: center;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #E7A977;
-    padding-left: 8px;
-    padding-right: 8px;
-    padding-bottom: 3px;
-    padding-top: 3px;
-}
-.titulo {
-    background-image: url(https://image.shutterstock.com/image-illustration/green-grained-ultra-hd-background-260nw-1612884064.jpg);
-    background-size: cover;
-    border-radius: 20px;
-    border-style: solid;
-    border-width: 3px;
-    border-color: #E7A977;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 3px;
-    padding-top: 3px;
-    font-weight: bold;
-}
-.subtitulo {
-    background-image: url(https://image.shutterstock.com/image-illustration/green-grained-ultra-hd-background-260nw-1612884064.jpg);
-    background-size: cover;
-        border-radius: 20px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #E7A977;
-    padding-left: 8px;
-    padding-right: 8px;
-    padding-bottom: 2px;
-    padding-top: 3px;
-    font-size: 38px;
-    text-align: center;
- 
-    
-
+.picture {
+    display: flex;
+    align-items: center;
 }
 
-
-li {
-    list-style-position: inside;
-    color: #E7A977;
-}
-a:hover {
-    color: #E7A977;
-}
-.indi:active {
-    background-color: #502419;
+.textSection1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    padding: 20px;
+    border-radius: 10%;
+    width: 23%;
 }
 
-.codecamp:hover {
-    font-weight: bold;
-    font-size: 30px;
+.textSection2 {
+    padding: 15px 20px 5px 10px;
+    border-radius: 12%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 23%;
 }
-.codecamp:active {
-    background-color: #502419;
+.textSection1, .textSection2 {
+    border: 1px solid #737373;
 }
-.classe {
-    margin-left: 420px;
-    padding-top: 20px;
-    margin-bottom: 15px;
 
-    border-radius: 34px;
-    width: 40%;
-    
+.parag {
+    opacity: 0.7;
+    transition: 0.5s ease;
 }
-.image-container {
-    height: 290px;
 
-}
-.desc {
-        background-color: #0B2306;
-        color: #E7A977;
-        border-width: 1px;
-        border-color: #648767;
-        border-radius: 20px;
-        border-style: solid;
-        line-height: 40px;
-        font-weight: 600;
-        font-size: 22px;
-        padding:1px;
-        margin-left: 30px    
-        
-}
-.separacao {
-    width: 50%;
-    margin-left: 470px;
-    font-size: 30px;
-    border-radius: 40px;
-    margin-bottom: 10px;
-    margin-top: 10px;
-}
-.letras {
-    margin-left: 280px;
-    width: 65%;
-    border-radius: 70px;
-}
-#description {
-    margin-left: 160px;
+.parag:hover {
+    opacity: 1;
+    font-weight:530;
+    transform: scale(1.05);
 }
