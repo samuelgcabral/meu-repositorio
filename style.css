@@ -24,6 +24,10 @@ body {
 
 .spanTitle {
     padding: 3px 20px;
+    background-color: #1F1F1F;
+    color: #FCFCFC;
+    border: 1px solid #FCFCFC;
+    font-family: 'Bebas Neue', cursive;
 }
 
 @media screen and (min-width: 600px) {
@@ -49,6 +53,7 @@ body {
 
     #photo:hover {
         transform: scale(1.07);
+        box-shadow: 0 0 1em rgb(235, 228, 228);
     }
 
     .picture {
@@ -82,6 +87,7 @@ body {
     .textSection1,
     .textSection2 {
         border: 1px solid #737373;
+        background-color: #1F1F1F
     }
 
     .parag {
@@ -91,7 +97,7 @@ body {
 
     .parag:hover {
         opacity: 1;
-        font-weight: 530;
+        color: #FCFCFC !important;
         transform: scale(1.05);
     }
 
@@ -104,6 +110,11 @@ body {
 .icon {
     width: 114px;
     height: 114px;
+    transition: 0.5s ease;
+}
+
+.icon:hover {
+    transform: scale(1.2);
 }
 
 .footerSocials {
@@ -112,8 +123,16 @@ body {
     justify-content: space-around;
     align-items: center;
     padding: 5px;
+    border: 5px solid #1F1F1F;
 }
 .secFooter {
     display: flex;
     justify-content: center;
+}
+
+#subtitle {
+    color: #00D76E !important;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 500;
 }
