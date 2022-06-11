@@ -20,6 +20,11 @@ body {
     font-family: 'Montserrat', sans-serif !important;
 }
 
+#subtitle {
+    color: #00D76E !important;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 500;
+}
 
 
 .spanTitle {
@@ -33,7 +38,8 @@ body {
 @media screen and (min-width: 600px) {
 
     .mainDiv {
-        background-image: url(./imgs//abstract-geometric-background-with-a-3d-kjpargeter.jpg);
+        background-image: url(./imgs/stars.webp);
+        background-size: cover;
         display: flex;
         justify-content: space-evenly;
         min-height: 480px;
@@ -48,7 +54,7 @@ body {
         max-height: 380px;
         border-radius: 50%;
         border: 2px solid white;
-        transition: 0.5s ease-in-out;
+        transition: 0.4s ease-in-out;
     }
 
     #photo:hover {
@@ -87,7 +93,7 @@ body {
     .textSection1,
     .textSection2 {
         border: 1px solid #737373;
-        background-color: #1F1F1F
+        background-color: #181818
     }
 
     .parag {
@@ -123,16 +129,10 @@ body {
     justify-content: space-around;
     align-items: center;
     padding: 5px;
-    border: 5px solid #1F1F1F;
+    border: 3px solid #1F1F1F;
 }
 .secFooter {
     display: flex;
     justify-content: center;
 }
 
-#subtitle {
-    color: #00D76E !important;
-    text-transform: uppercase;
-    font-family: 'Bebas Neue', cursive;
-    font-weight: 500;
-}
