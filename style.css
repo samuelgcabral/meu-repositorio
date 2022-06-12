@@ -1,4 +1,4 @@
-@media screen and (max-width: 599px) {
+@media screen and (max-width: 679px) {
     body {
         font-size: 20px;
     }
@@ -18,6 +18,7 @@
 
 body {
     font-family: 'Montserrat', sans-serif !important;
+    background-color: #1F1F1F !important;
 }
 
 #subtitle {
@@ -26,16 +27,22 @@ body {
     font-weight: 500;
 }
 
+    
+.icon {
+    max-width: 114px;
+    max-height: 114px;
+    transition: 0.5s ease;
+}
 
 .spanTitle {
     padding: 3px 20px;
-    background-color: #1F1F1F;
-    color: #FCFCFC;
-    border: 1px solid #FCFCFC;
+    background-color: #C0C0C0;
+    color: #1F1F1F;
+    border: 1px solid #181818;
     font-family: 'Bebas Neue', cursive;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 680px) {
 
     .mainDiv {
         background-image: url(./imgs/stars.webp);
@@ -111,12 +118,7 @@ body {
     .textSection2:hover {
         box-shadow: 0 0 1em #828282;
     }
-}
 
-.icon {
-    width: 114px;
-    height: 114px;
-    transition: 0.5s ease;
 }
 
 .icon:hover {
@@ -127,9 +129,10 @@ body {
     display: flex;
     flex-direction: row !important;
     justify-content: space-around;
-    align-items: center;
     padding: 5px;
-    border: 3px solid #1F1F1F;
+    border: 3px solid #181818;
+    background-color: #C0C0C0;
+    min-width: 400px !important;
 }
 .secFooter {
     display: flex;
