@@ -15,8 +15,8 @@
         align-items: center;
         flex-wrap: wrap;
     }
-    .secFooter {
-        flex-wrap: wrap;
+    .textSection1, .textSection2 {
+        max-width: 90% !important;
     }
 }
 
