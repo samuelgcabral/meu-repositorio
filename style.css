@@ -1,12 +1,16 @@
 @media screen and (max-width: 679px) {
     body {
         font-size: 20px;
+        max-width: 100%;
+        background-image: url(./imgs/stars.webp) !important;
+        background-size: cover;
     }
 
     #photo {
         max-width: 800px;
         max-height: 280px !important;
         border: 1px solid white;
+        margin-top: 15px;
     }
 
     .mainDiv {
@@ -15,8 +19,24 @@
         align-items: center;
         flex-wrap: wrap;
     }
-    .textSection1, .textSection2 {
+
+    .textSection1,
+    .textSection2 {
         max-width: 90% !important;
+    }
+
+    .spanTitle {
+        background-color: #1F1F1F !important;
+        border: 1px solid #FCFCFC !important;
+    }
+
+    #title {
+        margin-bottom: 30px;
+    }
+    
+    .contentDiv {
+        flex-direction: column;
+        align-items: center;
     }
 }
 
@@ -31,14 +51,17 @@ body {
     font-weight: 500;
 }
 
+.contentDiv {
+    display: flex;
+}
+
 .textSection1,
 .textSection2 {
     border: 1px solid #737373;
     background-color: #181818;
-
 }
 
-    
+
 .icon {
     max-width: 114px;
     max-height: 114px;
@@ -47,9 +70,7 @@ body {
 
 .spanTitle {
     padding: 3px 20px;
-    background-color: #181818 !important;
     color: #FCFCFC !important;
-    border: 1px solid #FCFCFC !important;
     font-family: 'Bebas Neue', cursive;
 }
 
@@ -60,11 +81,16 @@ body {
         background-size: cover;
         display: flex;
         justify-content: space-evenly;
+        flex-direction: column;
         min-height: 480px;
         max-width: 1200px !important;
         align-items: center;
         box-shadow: 0 0 1.5em #737373;
         border: 1px solid white;
+    }
+
+    .contentDiv {
+        justify-content: space-around;
     }
 
     #photo {
@@ -116,11 +142,20 @@ body {
         transform: scale(1.05);
     }
 
+    .textSection1,
+    .textSection2 {
+        max-height: 280px;
+    }
+
     .textSection1:hover,
     .textSection2:hover {
         box-shadow: 0 0 1em #828282;
     }
 
+    .titleSec {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 .icon:hover {
@@ -136,8 +171,8 @@ body {
     background-color: #C0C0C0;
     min-width: 400px !important;
 }
+
 .secFooter {
     display: flex;
     justify-content: center;
 }
-
