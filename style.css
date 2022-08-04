@@ -6,6 +6,12 @@
         background-size: cover;
     }
 
+    .dailyVerses {
+        width: 60%;
+        text-align: center;
+        color: white;
+    }
+
     #photo {
         max-width: 800px;
         max-height: 280px !important;
@@ -39,7 +45,7 @@
     #title {
         margin-bottom: 30px;
     }
-    
+
     .contentDiv {
         flex-direction: column;
         align-items: center;
@@ -50,6 +56,8 @@ body {
     font-family: 'Montserrat', sans-serif !important;
     background-color: #262a34 !important;
 }
+
+
 
 .header {
     width: 100%;
@@ -63,11 +71,12 @@ body {
     box-shadow: 0 0 0.2em #737373;
 
 }
- a {
-     text-decoration: none !important;
-     color: #E7E6F7 !important;
-     cursor: default;
- }
+
+a {
+    text-decoration: none !important;
+    color: #E7E6F7 !important;
+    cursor: default;
+}
 
 #subtitle {
     color: #00D76E !important;
@@ -98,6 +107,13 @@ body {
     font-family: 'Bebas Neue', cursive;
 }
 
+#dailyVersesWrapper {
+    margin-top: .7em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 @media screen and (min-width: 680px) {
 
     .mainDiv {
@@ -112,6 +128,31 @@ body {
         box-shadow: 0 0 1.5em #737373;
         border: 2px solid #E7E6F7;
     }
+
+    .dailyVerses.bibleVerse {
+        margin-top: .5em;
+    }
+    
+    .dailyVerses {
+        width: 20%;
+        text-align: center;
+        color: white;
+    }
+    
+    .dailyVerses.bibleVerse a {
+        font-weight: bold;
+        background-color: #181818;
+        padding: 3px 8px;
+        border-radius: 6px;
+    }
+    
+    .bibleText {
+        background-color: #181818;
+        border-radius: 20px;
+        padding: 5px;
+    }
+    
+
 
     .headerText:hover {
         color: #00D76E;
@@ -192,4 +233,3 @@ body {
         flex-direction: column;
     }
 }
-

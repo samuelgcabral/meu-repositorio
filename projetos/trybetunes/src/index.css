@@ -1,0 +1,256 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  background-color: #232323;
+  color: #C2C2C2;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.loading {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  color: #ffffff;
+  font-size: 1.4em;
+  text-decoration: none;
+  font-weight: 1000;
+}
+
+#name-input {
+  border-radius: 3px;
+  background-color: #191414;
+  box-shadow: inset 0 0 0 1px var(--essential-subdued,#878787);
+  color: #ffffff;
+  border: 0;
+  height: 40px;
+  width: 400px;
+  padding: 14px;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+  box-sizing: border-box;
+}
+
+.pageLogin {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #191414;
+  border-radius: 10px;
+  align-items: center;
+  width: 35%;
+  margin-left: 430px;
+  padding: 30px;
+}
+
+#loginButton {
+  width: 400px;
+  border-radius: 5px;
+  border: 0;
+  margin-top: 20px;
+  text-align: center;
+  background-color: #2aff75;
+  color: var(--text-base,#000000);
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  letter-spacing: 1.5px;
+  padding: 14px 32px;
+  line-height: 20px;
+  font-weight: 1000;
+}
+
+#loginButton:hover, #searchButton:hover {
+  transform: scale(1.03);
+  cursor: pointer;
+  box-shadow: inset 0 0 0 0.8px var(--essential-subdued, #C2C2C2);
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2px;
+}
+
+.fa-headphones {
+  margin-right: 10px;
+}
+
+.loginDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #19141400;
+  width: 30%;
+  padding: 50px 5px;
+  border-radius: 5px;
+}
+
+#titleLogin {
+  font-weight: 700;
+  font-size: 2.5em;
+  margin: 10px 0 -20px 0;
+  color: #ffffff;
+}
+
+#headerTitle {
+  color: #1DB954;
+}
+
+.headerComponent {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  background-color: #191414;
+  padding-bottom: 20px;
+  box-shadow: inset 0 0 0 0.3px var(--essential-subdued,#878787);
+}
+
+.inputBar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 70px;
+}
+
+#searchButton {
+  width: 130px;
+  border-radius: 500px;
+  border: 0;
+  text-align: center;
+  margin-left: 13px;
+  background-color: #2aff75;
+  padding: 10px;
+  line-height: 20px;
+  font-weight: 1000;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  cursor: pointer;
+  color: var(--text-base,#000000);
+}
+
+#error {
+  text-align: center;
+  font-style: italic;
+}
+
+#search-input {
+  border-radius: 500px;
+  background-color:#ffffff;
+  box-shadow: inset 0 0 0 1px var(--essential-subdued,#878787);
+  color: #191414;
+  border: 0;
+  height: 40px;
+  width: 400px;
+  padding: 14px;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+  box-sizing: border-box;
+}
+
+#index {
+  opacity: 0.7;
+  margin-left: 6px;
+}
+
+#index:hover {
+  opacity: 1;
+}
+
+.searchSec {
+  display: flex;
+  align-items: center;
+}
+
+.index {
+  display: flex;
+  justify-content:space-evenly
+}
+
+.albums {
+  display: flex;
+  margin-left: 250px;
+  margin-right: 200px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  /* max-width: 10%; */
+}
+
+#albImg {
+  width: 190px;
+  height: 190px;
+}
+
+.albumItem {
+  padding: 30px 50px;
+  box-shadow: inset 0 0 0 0.1px var(--essential-subdued,#ffffff);
+  border-radius: 10px;
+  margin: 15px;
+  min-height: 400px;
+  max-width: 200px;
+  opacity: 0.8;
+}
+
+.albumItem:hover {
+  opacity: 1;
+  transform: scale(1.01);
+}
+
+.albumTxt {
+  font-weight: 1000;
+  margin-bottom: 30px;
+}
+
+#playButton {
+  color: #1DB954;
+  opacity: 0.9;
+}
+
+#playButton:hover {
+  transform: scale(1.1);
+  opacity: 1;
+}
+
+.song {
+  box-shadow: inset 0 0 0 0.1px var(--essential-subdued,#ffffff);
+  width: 30%;
+  border-radius: 10px;
+  padding: 13px;
+  margin: 20px;
+  max-height: 180px;
+}
+
+.songs {
+  display: flex;
+  width: 80%;
+  flex-wrap: wrap;
+  margin-left: 300px;
+}
+
+#checkbox-element {
+  display: none;
+}
+
+#heart {
+  padding-top: 20px;
+  opacity: 0.3;
+  color: #2aff75;
+}
+
+#heart:hover {
+  opacity: 1;
+  cursor: pointer;
+  transform: scale(1.1);
+}
